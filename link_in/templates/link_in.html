@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<head>
+        <title>External link to Linkedin</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/link_in.css' %}">
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">Hello. Do you want to visit the website ?</a><h1>
+                <h2><a href="https://www.linkedin.com">Linkedin</a></h2>
+
+        </div>
+{% endblock %}
+<!--h1>External link!</h1>
+<p>Hello. Do you want to visit the website <a href="https://www.linkedin.com">Linkedin</a>?<br />
+It's a good website! ;-)</p>
